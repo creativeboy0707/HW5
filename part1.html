@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="assignments" content="My class assignments">
+
+
+
+
+
+
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Homework 5</title>
+
+        <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+        <script src='./js/script.js' async></script>
+    </head>
+
+    <body>
+
+        <ul class="nav-style">
+
+        </ul>
+        <header>
+            <h1 class="title">Part 1</h1>
+        </header>
+        <div class="container">
+
+            <div class="form-style-6">
+
+                <h1>Part A</h1>
+                <form>
+                    <label> Enter a name </label>
+                    <input type="text" id="user-name" required />
+
+                    <br />
+                    <p>Select yout gender</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+
+
+                    <p>Select your Fields of study</p>
+                    <input type="checkbox" id="option1" name="option1" value="fronend">
+                    <label for="option1"> Front End</label><br>
+                    <input type="checkbox" id="option2" name="option" value="backend">
+                    <label for="option2"> Back End</label><br>
+                    <input type="checkbox" id="option3" name="option" value="fullstack">
+                    <label for="option3"> Full Stack</label><br><br>
+
+
+                    <label for="year">Year of graduation: </label><br>
+                    <select name="year" id="years" required>
+                        <option value="">None</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+
+                    <br>
+
+                    <input class="hw1-btn-style" type="button" value="Submit" onclick="checkForm()">
+
+                </form>
+                <div id="error">
+
+                </div>
+
+                <div id="success">
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+        </div>
+
+        <footer class="footer-style">
+
+        </footer>
+
+    </body>
+
+    </html>

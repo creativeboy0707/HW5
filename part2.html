@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Homework 5</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src='./js/script.js' async></script>
+</head>
+
+<body>
+
+    <ul class="nav-style">
+        <li class="active-item menu-order"><a href="#home"><strong>CNIT 133</strong></a></li>
+        <li class="menu-order"><a href="file:///C:/Users/rlevi/OneDrive/Desktop/CIS%20-%20HW%203/heythere/mainpage.html"><strong>Homework 5</strong></a></li>
+        <li class="menu-order"><a href="file:///C:/Users/rlevi/OneDrive/Desktop/CIS%20-%20HW%203/heythere/part1.html"><strong>Part 1</strong></a></li>
+        <li class="menu-order"><a href="file:///C:/Users/rlevi/OneDrive/Desktop/CIS%20-%20HW%203/heythere/part2.html"><strong>Part 2</strong></a></li>
+
+        <li class="menu-order"><a href="file:///C:/Users/rlevi/OneDrive/Desktop/CIS%20-%20HW%203/heythere/part3.html"><strong>Part 3</strong></a></li>
+    </ul>
+    <header>
+        <h1 class="title">Part 2</h1>
+    </header>
+    <div class="container">
+        <div>
+
+            <div class="form-style-6">
+
+                <h1>Part B Pulldown Menus</h1>
+                <form>
+                    <h2>Using onchange event handler</h2>
+                    <label for="description">Select an option: </label><br>
+                    <select name="destinationOne" id="destinationOne" required onchange="onChangeEventHandler()">
+                        <option value="none">None</option>
+                        <option value="https://www.linkedin.com/">LinkedIn</option>
+                        <option value="https://github.com/creativeboy0707">GitHub</option>
+                        <option value="https://github.com/creativeboy0707">Portfolio</option>
+
+                    </select>
+
+
+                </form>
+                <div id="errorOnChange">
+
+                </div>
+            </div>
+
+            <div class="form-style-6">
+
+                <h1>Part B Pulldown Menus</h1>
+                <form>
+                    <h2>Using onclick event handler</h2>
+                    <label for="description">Select an option: </label><br>
+                    <select name="destination" id="destination" required>
+                        <option value="none">None</option>
+                        <option value="https://www.linkedin.com/>LinkedIn</option>
+                        <option value="https://github.com/creativeboy0707">GitHub</option>
+                        <option value="https://github.com/creativeboy0707/">Portfolio</option>
+
+                    </select>
+
+                    <input class="hw1-btn-style" type="button" value="GO" onclick="onClickEventHandler()">
+
+                </form>
+                <div id="error">
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    <footer class="footer-style">
+        <p>Enrico Levitt- College of San Mateo</p>
+        <a href="https://github.com/creativeboy0707"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/creativeboy0707"><i class="fa fa-internet-explorer"></i></a>
+    </footer>
+
+</body>
+
+</html>
